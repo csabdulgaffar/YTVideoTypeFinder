@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+:root {
+    --red: #b61105;
+    --offwhite: #FAF9F6;
+}
+
+.header {
+    background-color: var(--red);
+
+}
+
+/* header navbar*/
+
+.navbar {
+    display: flex;
+    background-color: var(--red);
+    padding: 5px 80px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.logo {
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 800;
+    font-size: 1.2em;
+
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+.navbar ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  .dropdown .dropbtn {
+    font-size: 1.1em;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: poppins;
+  }
+  
+   .dropdown:hover .dropbtn {
+    background-color: #dd3131;
+    border-radius: 4px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: poppins;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+
+
+/*section*/
+
+.section1 {
+    max-width: 80%;
+    background-color: var(--offwhite);
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+.title {
+    font-family: roboto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+}
+
+.section1 p {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 24.9%;
+    height: 200px;
+    background-color: rgb(202, 201, 201);
+    margin: 5px;
+
+
+}
+
+.cards a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.cards a:hover {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.cards img {
+    width: 130px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*section 2*/
+.section2 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    padding: 20px;
+    
+}
+
+.section2 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.section2 p {
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 25px;
+ 
+    
+
+
+}
+
+.section2 img {
+    
+    width: 170px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+   
+
+}
+
+
+/*section 3*/
+.section3 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    padding: 20px;
+    
+}
+
+.section3 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.section3 p {
+    width: 60%;
+   
+    float: right;
+    margin-top: 20px;
+  
+   
+        
+
+
+}
+
+.section3 img {
+    
+    width: 170px;
+float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+   
+
+}
+
+/*section 4*/
+.section4 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    padding: 20px;
+    
+}
+
+.section4 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.section4 p {
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 25px;
+ 
+    
+
+
+}
+
+.section4 img {
+    
+    width: 170px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+   
+
+}
+
+/*section 5*/
+.section5 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    padding: 20px;
+    
+}
+
+.section5 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.section5 p {
+    width: 60%;
+   
+    float: right;
+    margin-top: 20px;
+  
+   
+        
+
+
+}
+
+.section5 img {
+    
+    width: 170px;
+float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+   
+
+}
+
+/*section 6*/
+
+.section6 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height:260px;
+    padding: 20px;
+    
+}
+.section6 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: poppins;
+    
+}
+
+.section6 .list{
+    display: flex;
+    margin-top: 20px;
+}
+.section6 ul li{
+    list-style-type: none;
+    display: table;
+    margin-left: 25px;
+}
+.section6 ul li .number {
+    font-weight: 600;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    display: table;
+    background: #d2e3fc;
+    color: #4285f4;
+    text-align: center;
+    margin-right: 20px;
+}
+.section6 ul li span {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*section 7*/
+.section7 {
+    max-width: 80%;
+    background-color: rgb(202, 201, 201);
+    margin: auto;
+    margin-top: 50px;
+    height:400px;
+    padding: 20px;
+    
+}
+
+.section7 h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: poppins;
+    margin-bottom: 25px;
+    
+}
+
+.qna{
+    width: 95%;
+    margin:25px auto;
+
+}
+
+.question
+{
+   
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: auto;
+    
+}
+.answer{
+    font-size: roboto;
+    font-size: 1.15em;
+    margin-top: 5px;
+}
+
+/*footer*/
+footer{
+    margin-top: 25px;
+    background-color: rgb(24, 20, 20);
+}
+.copyright{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    
+
+}
+
+.copyright ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.copyright ul li{
+list-style-type: none;
+padding: 10px 0;
+
+
+}
+
+.copyright ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-family: poppins;
+
+}
+.copyright ul li a:hover{
+    font-size: 1.2em;
+}
+
+
